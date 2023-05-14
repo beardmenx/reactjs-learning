@@ -1,18 +1,12 @@
 import s from "./Profile.module.css";
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
+
 const Profile = () => {
   return (
     <div>
-      <div>
-        <img
-          src="https://wallpaperaccess.com/full/123678.jpg"
-          alt="wallpaper"
-        ></img>
-      </div>
-      <div>avatar + description</div>
-      <div>
-        <MyPosts />
-      </div>
+      <ProfileInfo />
+      <MyPosts />
     </div>
   );
 };
